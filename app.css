@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+}
+
+.container {
+    padding-right: 110px;
+    padding-left: 110px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Start of Home Page */
+.home {
+    background-image: url(images/bg-pic.jpeg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color;
+    background-color: #1b00ffa1;
+}
+
+/* Menubar Area */
+.menubar-area {
+    padding-top: 15px;
+}
+
+.menubar {
+    float: right;
+}
+
+.menubar li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.menubar li a {
+    font-size: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menubar li a.active {
+    border: 1px solid #ffffff;
+    padding: 4px 15px;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+}
+
+.navbar-brand a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+/* Cover Caption */
+.coverCaption {
+    padding-top: 195px;
+}
+
+.coverCaption h2 {
+    line-height: 1em;
+    font-size: 45px;
+    color: #ffffff;
+}
+
+.coverCaption p {
+    color: #ffffff;
+    padding-top: 20px;
+    width: 535px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.coverCaption .btn-social {
+    margin-top: 30px;
+}
+
+.coverCaption .btn-social a {
+    color: #ffffff;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 1px solid #ffffff;
+    border-radius: 20em;
+    padding: 8px 15px;
+    text-decoration: none;
+}
+
+.coverCaption .btn-social a.bg-active {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* Cover Image */
+.coverImage img {
+   float: right;
+   width: 435px;
+   height: auto;
+   margin-top: -250px;
+}
+
+/* End of Home Page */
